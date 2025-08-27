@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="sampleTestsuiteTest" time="25.593" tests="1" failures="0" errors="0">
+   <testsuite name="sampleTestsuiteTest" tests="1" failures="0" errors="0" time="25.593" skipped="0" timestamp="2025-08-26T10:21:04.142Z" hostname="Harish M - LPT1261" id="Test Suites/sampleTestsuiteTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Harish M\\.katalon\\packages\\KSE-10.3.0\\Katalon Studio\\TestPractices\\Reports\\20250826_155058\\sampleTestsuiteTest\\20250826_155058"/>
+         <property name="logFiles" value="C:\\Users\\Harish M\\.katalon\\packages\\KSE-10.3.0\\Katalon Studio\\TestPractices\\Reports\\20250826_155058\\sampleTestsuiteTest\\20250826_155058\\console0.log, C:\\Users\\Harish M\\.katalon\\packages\\KSE-10.3.0\\Katalon Studio\\TestPractices\\Reports\\20250826_155058\\sampleTestsuiteTest\\20250826_155058\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Harish M - LPT1261"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.0.0"/>
+         <property name="browser" value="Chrome 139.0.7258.139"/>
+         <property name="userFullName" value="Harish"/>
+         <property name="hostAddress" value="192.168.0.100"/>
+         <property name="sessionId" value="4946d2fa98d1be7294a57ab663ac9796"/>
+         <property name="projectName" value="TestPractices"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/WebUIcomponents/FileDownload" time="24.633" classname="Test Cases/WebUIcomponents/FileDownload" status="PASSED">
+         <system-out><![CDATA[26-08-2025T15:51:05 - [TEST_CASE][PASSED] - Test Cases/WebUIcomponents/FileDownload: Test Cases/WebUIcomponents/FileDownload
+
+26-08-2025T15:51:05 - [TEST_STEP][PASSED] - openBrowser("https://letcode.in/test"): Browser is opened with url: 'https://letcode.in/test'
+
+26-08-2025T15:51:06 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+26-08-2025T15:51:06 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+26-08-2025T15:51:12 - [MESSAGE][PASSED] - Browser is opened with url: 'https://letcode.in/test'
+
+26-08-2025T15:51:12 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+26-08-2025T15:51:12 - [MESSAGE][PASSED] - Current window maximized
+
+26-08-2025T15:51:12 - [TEST_STEP][PASSED] - click(findTestObject("Uploadfile/Page_Workspace  LetCode with Koushik/Fileuploadmenu")): Object: 'Object Repository/Uploadfile/Page_Workspace  LetCode with Koushik/Fileuploadmenu' is clicked on
+
+26-08-2025T15:51:14 - [MESSAGE][PASSED] - Object: 'Object Repository/Uploadfile/Page_Workspace  LetCode with Koushik/Fileuploadmenu' is clicked on
+
+26-08-2025T15:51:14 - [TEST_STEP][PASSED] - click(findTestObject("Download/Page_File Upload  LetCode with Koushik/Downloadpdf")): Object: 'Object Repository/Download/Page_File Upload  LetCode with Koushik/Downloadpdf' is clicked on
+
+26-08-2025T15:51:18 - [MESSAGE][PASSED] - Object: 'Object Repository/Download/Page_File Upload  LetCode with Koushik/Downloadpdf' is clicked on
+
+26-08-2025T15:51:18 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+26-08-2025T15:51:29 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+26-08-2025T15:51:29 - [TEST_STEP][PASSED] - downloadFolder = new java.io.File(C:\Users\Harish M\Downloads): null
+
+26-08-2025T15:51:29 - [TEST_STEP][PASSED] - println(downloadFolder): null
+
+26-08-2025T15:51:29 - [TEST_STEP][PASSED] - nameOffiles = Arrays.asList(downloadFolder.list()): null
+
+26-08-2025T15:51:29 - [TEST_STEP][PASSED] - println(nameOffiles): null
+
+26-08-2025T15:51:29 - [TEST_STEP][PASSED] - if (nameOffiles.contains("sample.pdf")): null
+
+26-08-2025T15:51:29 - [TEST_STEP][PASSED] - println("File Downloaded"): null
+
+26-08-2025T15:51:29 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+26-08-2025T15:51:29 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[26-08-2025T15:51:04 - [TEST_SUITE][PASSED] - sampleTestsuiteTest: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

@@ -1,0 +1,107 @@
+2025-08-21 10:57:51.129 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/sampleTestsuiteTest
+2025-08-21 10:57:51.340 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Harish
+2025-08-21 10:57:51.344 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TestPractices
+2025-08-21 10:57:51.345 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Harish M - LPT1261
+2025-08-21 10:57:51.346 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-08-21 10:57:51.347 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.115
+2025-08-21 10:57:51.349 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.0.0
+2025-08-21 10:57:52.340 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-21 10:57:52.341 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/WebUIcomponents/Alert
+2025-08-21 10:57:52.966 DEBUG testcase.Alert                           - 1: openBrowser("https://letcode.in/test")
+2025-08-21 10:57:53.382 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-21 10:57:53.494 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 21, 2025 10:57:56 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-21 10:57:57.292 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 9f9d254eff041f656efbf82114df1130
+2025-08-21 10:57:57.295 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-21 10:57:57.297 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-21 10:57:57.298 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-21 10:57:57.321 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-21 10:58:01.306 DEBUG testcase.Alert                           - 2: click(findTestObject("Alertobjects/Page_Workspace  LetCode with Koushik/Alert_button"))
+2025-08-21 10:58:07.532 DEBUG testcase.Alert                           - 3: click(findTestObject("Alertobjects/Page_Alert  LetCode with Koushik/SimpleAlertbtn"))
+2025-08-21 10:58:08.716 DEBUG testcase.Alert                           - 4: acceptAlert()
+2025-08-21 10:58:08.983 DEBUG testcase.Alert                           - 5: click(findTestObject("Alertobjects/Page_Alert  LetCode with Koushik/Confirmalertbtn"))
+2025-08-21 10:58:09.910 DEBUG testcase.Alert                           - 6: dismissAlert()
+2025-08-21 10:58:10.099 DEBUG testcase.Alert                           - 7: click(findTestObject("Alertobjects/Page_Alert  LetCode with Koushik/promptalertbtn"))
+2025-08-21 10:58:10.678 DEBUG testcase.Alert                           - 8: setAlertText("test")
+2025-08-21 10:58:10.796 DEBUG testcase.Alert                           - 9: acceptAlert()
+2025-08-21 10:58:10.894 DEBUG testcase.Alert                           - 10: click(findTestObject("Alertobjects/Page_Alert  LetCode with Koushik/moderalertbtn"))
+2025-08-21 10:58:11.525 DEBUG testcase.Alert                           - 11: click(findTestObject("Alertobjects/Page_Workspace  LetCode with Koushik/Page_Alert  LetCode with Koushik/button_Modern Alert_modal-close is-large"))
+2025-08-21 10:58:12.049 DEBUG testcase.Alert                           - 12: closeBrowser()
+2025-08-21 10:58:12.822 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/WebUIcomponents/Alert
+2025-08-21 10:58:12.840 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-21 10:58:12.840 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/WebUIcomponents/FileDownload
+2025-08-21 10:58:13.411 DEBUG testcase.FileDownload                    - 1: openBrowser("https://letcode.in/test")
+2025-08-21 10:58:13.426 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-21 10:58:13.430 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 21, 2025 10:58:15 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-21 10:58:15.915 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = e3b69e7bc3aa14a0ae21a421a8ba4790
+2025-08-21 10:58:15.917 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-21 10:58:15.932 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-21 10:58:15.941 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-21 10:58:15.952 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-21 10:58:18.363 DEBUG testcase.FileDownload                    - 2: maximizeWindow()
+2025-08-21 10:58:18.683 DEBUG testcase.FileDownload                    - 3: click(findTestObject("Uploadfile/Page_Workspace  LetCode with Koushik/Fileuploadmenu"))
+2025-08-21 10:58:22.108 DEBUG testcase.FileDownload                    - 4: click(findTestObject("Download/Page_File Upload  LetCode with Koushik/Downloadpdf"))
+2025-08-21 10:58:23.164 DEBUG testcase.FileDownload                    - 5: delay(10, STOP_ON_FAILURE)
+2025-08-21 10:58:33.258 DEBUG testcase.FileDownload                    - 6: downloadFolder = new java.io.File(C:\Users\Harish M\Downloads)
+2025-08-21 10:58:33.265 DEBUG testcase.FileDownload                    - 7: println(downloadFolder)
+C:\Users\Harish M\Downloads
+2025-08-21 10:58:33.279 DEBUG testcase.FileDownload                    - 8: nameOffiles = Arrays.asList(downloadFolder.list())
+2025-08-21 10:58:33.314 DEBUG testcase.FileDownload                    - 9: println(nameOffiles)
+[desktop.ini, download.png, Edit Guide Me.mp4, GlobalProtect64.msi, ideaIC-2025.1.1.1.exe, jdk-19.0.2_windows-x64_bin.exe, jdk-21_windows-x64_bin.exe, KatalonSetup.exe, Latitude-3520-R5RR9_Win11_1.0_A09.exe, Mega-sale-600-×-360-px-30.png, sample.pdf]
+2025-08-21 10:58:33.334 DEBUG testcase.FileDownload                    - 10: if (nameOffiles.contains("sample.pdf"))
+2025-08-21 10:58:33.379 DEBUG testcase.FileDownload                    - 1: println("File Downloaded")
+File Downloaded
+2025-08-21 10:58:33.383 DEBUG testcase.FileDownload                    - 12: closeBrowser()
+2025-08-21 10:58:34.192 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/WebUIcomponents/FileDownload
+2025-08-21 10:58:34.199 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-21 10:58:34.201 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/WebUIcomponents/DragandDragcomponents
+2025-08-21 10:58:34.397 DEBUG testcase.DragandDragcomponents           - 1: openBrowser("https://jqueryui.com/droppable/")
+2025-08-21 10:58:34.510 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-21 10:58:34.529 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 21, 2025 10:58:36 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-21 10:58:36.806 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = f08cc3af452b7b0050fa5f698e722aed
+2025-08-21 10:58:36.817 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-21 10:58:36.819 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-21 10:58:36.822 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-21 10:58:36.822 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-21 10:58:39.141 DEBUG testcase.DragandDragcomponents           - 2: dragAndDropToObject(findTestObject("Object Repository/DragandDrop/Page_Droppable  jQuery UI/Source"), findTestObject("Object Repository/DragandDrop/Page_Droppable  jQuery UI/destination"))
+2025-08-21 10:58:41.059 DEBUG testcase.DragandDragcomponents           - 3: text = getText(findTestObject("Object Repository/DragandDrop/Page_Droppable  jQuery UI/destination"))
+2025-08-21 10:58:41.461 DEBUG testcase.DragandDragcomponents           - 4: verifyEqual(text, "Dropped!")
+2025-08-21 10:58:41.483 DEBUG testcase.DragandDragcomponents           - 5: closeBrowser()
+2025-08-21 10:58:41.902 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/WebUIcomponents/DragandDragcomponents
+2025-08-21 10:58:41.910 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-21 10:58:41.910 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/WebUIcomponents/SelectDropdown
+2025-08-21 10:58:42.069 DEBUG testcase.SelectDropdown                  - 1: openBrowser("https://letcode.in/test")
+2025-08-21 10:58:42.076 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-21 10:58:42.078 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 21, 2025 10:58:43 AM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-21 10:58:44.167 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 2f01d79c67ba01ac93c0bd48a3312e32
+2025-08-21 10:58:44.167 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.128
+2025-08-21 10:58:44.174 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-21 10:58:44.175 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-21 10:58:44.175 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-21 10:58:46.251 DEBUG testcase.SelectDropdown                  - 2: maximizeWindow()
+2025-08-21 10:58:46.577 DEBUG testcase.SelectDropdown                  - 3: click(findTestObject("SelectDropdown/Page_Workspace  LetCode with Koushik/select"))
+2025-08-21 10:58:48.450 DEBUG testcase.SelectDropdown                  - 4: selectOptionByIndex(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/CountryDropdown"), 2)
+2025-08-21 10:58:50.475 DEBUG testcase.SelectDropdown                  - 5: verifyOptionSelectedByIndex(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/CountryDropdown"), 2, 0)
+2025-08-21 10:58:50.500 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-08-21 10:58:51.777 DEBUG testcase.SelectDropdown                  - 6: selectOptionByValue(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language"), "py", false)
+2025-08-21 10:58:52.660 DEBUG testcase.SelectDropdown                  - 7: verifyOptionSelectedByValue(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language"), "py", false, 0)
+2025-08-21 10:58:52.761 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-08-21 10:58:54.226 DEBUG testcase.SelectDropdown                  - 8: selectOptionByLabel(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language"), "Swift", false)
+2025-08-21 10:58:54.998 DEBUG testcase.SelectDropdown                  - 9: verifyOptionSelectedByLabel(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language"), "Swift", false, 0)
+2025-08-21 10:58:55.061 WARN  c.kms.katalon.core.helper.KeywordHelper  - Timeout '0' is invalid. Using default page load timeout: '10'
+2025-08-21 10:58:56.597 DEBUG testcase.SelectDropdown                  - 10: waitForElementPresent(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption"), 2)
+2025-08-21 10:58:56.949 DEBUG testcase.SelectDropdown                  - 11: selectAllOption(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption"))
+2025-08-21 10:59:22.178 DEBUG testcase.SelectDropdown                  - 12: deselectAllOption(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption"))
+2025-08-21 10:59:46.334 DEBUG testcase.SelectDropdown                  - 13: selectOptionByIndex(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption"), "2-4")
+2025-08-21 10:59:48.109 DEBUG testcase.SelectDropdown                  - 14: closeBrowser()
+2025-08-21 10:59:49.169 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/WebUIcomponents/SelectDropdown
+2025-08-21 10:59:49.301 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-08-21 10:59:49.301 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/sampleTestsuiteTest
+2025-08-21 10:59:49.301 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

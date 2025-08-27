@@ -1,0 +1,52 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+sampleTestsuiteTest,Chrome 139.0.7258.128,,,22-08-2025 11:25:20,22-08-2025 11:26:57,1m - 37.239s,PASSED
+,,,,,,,
+Test Cases/WebUIcomponents/Alert,Chrome 139.0.7258.128,,,22-08-2025 11:25:21,22-08-2025 11:25:37,15.890s,PASSED
+"openBrowser(""https://letcode.in/test"")",Chrome 139.0.7258.128,,,22-08-2025 11:25:22,22-08-2025 11:25:32,9.881s,PASSED
+"click(findTestObject(""Alertobjects/Page_Workspace  LetCode with Koushik/Alert_button""))",Chrome 139.0.7258.128,,,22-08-2025 11:25:32,22-08-2025 11:25:33,1.260s,PASSED
+"click(findTestObject(""Alertobjects/Page_Alert  LetCode with Koushik/SimpleAlertbtn""))",Chrome 139.0.7258.128,,,22-08-2025 11:25:33,22-08-2025 11:25:35,1.464s,PASSED
+acceptAlert(),Chrome 139.0.7258.128,,,22-08-2025 11:25:35,22-08-2025 11:25:35,0.137s,PASSED
+"click(findTestObject(""Alertobjects/Page_Alert  LetCode with Koushik/Confirmalertbtn""))",Chrome 139.0.7258.128,,,22-08-2025 11:25:35,22-08-2025 11:25:35,0.442s,PASSED
+dismissAlert(),Chrome 139.0.7258.128,,,22-08-2025 11:25:35,22-08-2025 11:25:35,0.071s,PASSED
+"click(findTestObject(""Alertobjects/Page_Alert  LetCode with Koushik/promptalertbtn""))",Chrome 139.0.7258.128,,,22-08-2025 11:25:35,22-08-2025 11:25:36,0.463s,PASSED
+"setAlertText(""test"")",Chrome 139.0.7258.128,,,22-08-2025 11:25:36,22-08-2025 11:25:36,0.063s,PASSED
+acceptAlert(),Chrome 139.0.7258.128,,,22-08-2025 11:25:36,22-08-2025 11:25:36,0.069s,PASSED
+"click(findTestObject(""Alertobjects/Page_Alert  LetCode with Koushik/moderalertbtn""))",Chrome 139.0.7258.128,,,22-08-2025 11:25:36,22-08-2025 11:25:36,0.513s,PASSED
+"click(findTestObject(""Alertobjects/Page_Workspace  LetCode with Koushik/Page_Alert  LetCode with Koushik/button_Modern Alert_modal-close is-large""))",Chrome 139.0.7258.128,,,22-08-2025 11:25:36,22-08-2025 11:25:37,0.380s,PASSED
+closeBrowser(),Chrome 139.0.7258.128,,,22-08-2025 11:25:37,22-08-2025 11:25:37,0.449s,PASSED
+,,,,,,,
+Test Cases/WebUIcomponents/FileDownload,Chrome 139.0.7258.128,,,22-08-2025 11:25:37,22-08-2025 11:25:57,20.202s,PASSED
+"openBrowser(""https://letcode.in/test"")",Chrome 139.0.7258.128,,,22-08-2025 11:25:37,22-08-2025 11:25:41,3.440s,PASSED
+maximizeWindow(),Chrome 139.0.7258.128,,,22-08-2025 11:25:41,22-08-2025 11:25:41,0.188s,PASSED
+"click(findTestObject(""Uploadfile/Page_Workspace  LetCode with Koushik/Fileuploadmenu""))",Chrome 139.0.7258.128,,,22-08-2025 11:25:41,22-08-2025 11:25:45,3.536s,PASSED
+"click(findTestObject(""Download/Page_File Upload  LetCode with Koushik/Downloadpdf""))",Chrome 139.0.7258.128,,,22-08-2025 11:25:45,22-08-2025 11:25:46,1.778s,PASSED
+"delay(10, STOP_ON_FAILURE)",Chrome 139.0.7258.128,,,22-08-2025 11:25:46,22-08-2025 11:25:57,10.223s,PASSED
+downloadFolder = new java.io.File(C:\Users\Harish M\Downloads),Chrome 139.0.7258.128,,,22-08-2025 11:25:57,22-08-2025 11:25:57,0.014s,PASSED
+println(downloadFolder),Chrome 139.0.7258.128,,,22-08-2025 11:25:57,22-08-2025 11:25:57,0.025s,PASSED
+nameOffiles = Arrays.asList(downloadFolder.list()),Chrome 139.0.7258.128,,,22-08-2025 11:25:57,22-08-2025 11:25:57,0.036s,PASSED
+println(nameOffiles),Chrome 139.0.7258.128,,,22-08-2025 11:25:57,22-08-2025 11:25:57,0.006s,PASSED
+"if (nameOffiles.contains(""sample.pdf""))",Chrome 139.0.7258.128,,,22-08-2025 11:25:57,22-08-2025 11:25:57,0.053s,PASSED
+closeBrowser(),Chrome 139.0.7258.128,,,22-08-2025 11:25:57,22-08-2025 11:25:57,0.571s,PASSED
+,,,,,,,
+Test Cases/WebUIcomponents/DragandDragcomponents,Chrome 139.0.7258.128,,,22-08-2025 11:25:57,22-08-2025 11:26:03,6.037s,PASSED
+"openBrowser(""https://jqueryui.com/droppable/"")",Chrome 139.0.7258.128,,,22-08-2025 11:25:58,22-08-2025 11:26:01,3.491s,PASSED
+"dragAndDropToObject(findTestObject(""Object Repository/DragandDrop/Page_Droppable  jQuery UI/Source""), findTestObject(""Object Repository/DragandDrop/Page_Droppable  jQuery UI/destination""))",Chrome 139.0.7258.128,,,22-08-2025 11:26:01,22-08-2025 11:26:03,1.759s,PASSED
+"text = getText(findTestObject(""Object Repository/DragandDrop/Page_Droppable  jQuery UI/destination""))",Chrome 139.0.7258.128,,,22-08-2025 11:26:03,22-08-2025 11:26:03,0.331s,PASSED
+"verifyEqual(text, ""Dropped!"")",Chrome 139.0.7258.128,,,22-08-2025 11:26:03,22-08-2025 11:26:03,0.007s,PASSED
+closeBrowser(),Chrome 139.0.7258.128,,,22-08-2025 11:26:03,22-08-2025 11:26:03,0.279s,PASSED
+,,,,,,,
+Test Cases/WebUIcomponents/SelectDropdown,Chrome 139.0.7258.128,,,22-08-2025 11:26:03,22-08-2025 11:26:57,53.797s,PASSED
+"openBrowser(""https://letcode.in/test"")",Chrome 139.0.7258.128,,,22-08-2025 11:26:04,22-08-2025 11:26:07,3.905s,PASSED
+maximizeWindow(),Chrome 139.0.7258.128,,,22-08-2025 11:26:07,22-08-2025 11:26:08,0.348s,PASSED
+"click(findTestObject(""SelectDropdown/Page_Workspace  LetCode with Koushik/select""))",Chrome 139.0.7258.128,,,22-08-2025 11:26:08,22-08-2025 11:26:10,2.381s,PASSED
+"selectOptionByIndex(findTestObject(""SelectDropdown/Page_Dropdowns  LetCode with Koushik/CountryDropdown""), 2)",Chrome 139.0.7258.128,,,22-08-2025 11:26:10,22-08-2025 11:26:12,1.677s,PASSED
+"verifyOptionSelectedByIndex(findTestObject(""SelectDropdown/Page_Dropdowns  LetCode with Koushik/CountryDropdown""), 2, 0)",Chrome 139.0.7258.128,,,22-08-2025 11:26:12,22-08-2025 11:26:13,1.184s,PASSED
+"selectOptionByValue(findTestObject(""SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language""), ""py"", false)",Chrome 139.0.7258.128,,,22-08-2025 11:26:13,22-08-2025 11:26:14,0.724s,PASSED
+"verifyOptionSelectedByValue(findTestObject(""SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language""), ""py"", false, 0)",Chrome 139.0.7258.128,,,22-08-2025 11:26:14,22-08-2025 11:26:15,1.398s,PASSED
+"selectOptionByLabel(findTestObject(""SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language""), ""Swift"", false)",Chrome 139.0.7258.128,,,22-08-2025 11:26:15,22-08-2025 11:26:16,0.703s,PASSED
+"verifyOptionSelectedByLabel(findTestObject(""SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language""), ""Swift"", false, 0)",Chrome 139.0.7258.128,,,22-08-2025 11:26:16,22-08-2025 11:26:17,1.253s,PASSED
+"waitForElementPresent(findTestObject(""SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption""), 2)",Chrome 139.0.7258.128,,,22-08-2025 11:26:17,22-08-2025 11:26:17,0.283s,PASSED
+"selectAllOption(findTestObject(""SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption""))",Chrome 139.0.7258.128,,,22-08-2025 11:26:17,22-08-2025 11:26:37,19.432s,PASSED
+"deselectAllOption(findTestObject(""SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption""))",Chrome 139.0.7258.128,,,22-08-2025 11:26:37,22-08-2025 11:26:55,18.479s,PASSED
+"selectOptionByIndex(findTestObject(""SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption""), ""2-4"")",Chrome 139.0.7258.128,,,22-08-2025 11:26:55,22-08-2025 11:26:57,1.466s,PASSED
+closeBrowser(),Chrome 139.0.7258.128,,,22-08-2025 11:26:57,22-08-2025 11:26:57,0.378s,PASSED

@@ -1,0 +1,24 @@
+{
+  "brokenTestObjects": [
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_OrangeHRM/2adminsearch/Page_OrangeHRM/div_OrangeHRM, Inc_oxd-toast oxd-toast--inf_c23ebc",
+      "brokenLocator": "//div[@id\u003d\u0027oxd-toaster_1\u0027]/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_OrangeHRM/2adminsearch/Page_OrangeHRM/div_OrangeHRM, Inc_oxd-toast oxd-toast--inf_c23ebc_position.png"
+    },
+    {
+      "approved": true,
+      "testObjectId": "Object Repository/Page_OrangeHRM/2adminsearch/Page_OrangeHRM/div_OrangeHRM, Inc_oxd-toast-icon-wrap oxd-_8b165f",
+      "brokenLocator": "//div[@id\u003d\u0027oxd-toaster_1\u0027]/div/div/div/div",
+      "brokenLocatorMethod": "XPATH",
+      "proposedLocator": "//div[2]/div/div/div/div",
+      "proposedLocatorMethod": "XPATH",
+      "recoveryMethod": "XPATH",
+      "pathToScreenshot": "Reports/Self-healing/Object Repository/Page_OrangeHRM/2adminsearch/Page_OrangeHRM/div_OrangeHRM, Inc_oxd-toast-icon-wrap oxd-_8b165f_position.png"
+    }
+  ]
+}

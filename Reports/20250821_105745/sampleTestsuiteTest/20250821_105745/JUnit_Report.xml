@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="sampleTestsuiteTest" time="117.858" tests="4" failures="0" errors="0">
+   <testsuite name="sampleTestsuiteTest" tests="4" failures="0" errors="0" time="117.858" skipped="0" timestamp="2025-08-21T05:27:51.312Z" hostname="Harish M - LPT1261" id="Test Suites/sampleTestsuiteTest">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform"/>
+         <property name="logFolder" value="C:\\Users\\Harish M\\Katalon Studio\\TestPractices\\Reports\\20250821_105745\\sampleTestsuiteTest\\20250821_105745"/>
+         <property name="logFiles" value="C:\\Users\\Harish M\\Katalon Studio\\TestPractices\\Reports\\20250821_105745\\sampleTestsuiteTest\\20250821_105745\\console0.log, C:\\Users\\Harish M\\Katalon Studio\\TestPractices\\Reports\\20250821_105745\\sampleTestsuiteTest\\20250821_105745\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="Harish M - LPT1261"/>
+         <property name="os" value="Windows 11 64bit"/>
+         <property name="katalonVersion" value="10.3.0.0"/>
+         <property name="browser" value="Chrome 139.0.7258.128"/>
+         <property name="userFullName" value="Harish"/>
+         <property name="hostAddress" value="192.168.0.115"/>
+         <property name="sessionId" value="2f01d79c67ba01ac93c0bd48a3312e32"/>
+         <property name="projectName" value="TestPractices"/>
+         <property name="seleniumVersion" value="4.28.1"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 11"/>
+      </properties>
+      <testcase name="Test Cases/WebUIcomponents/Alert" time="20.481" classname="Test Cases/WebUIcomponents/Alert" status="PASSED">
+         <system-out><![CDATA[21-08-2025T10:57:52 - [TEST_CASE][PASSED] - Test Cases/WebUIcomponents/Alert: Test Cases/WebUIcomponents/Alert
+
+21-08-2025T10:57:52 - [TEST_STEP][PASSED] - openBrowser("https://letcode.in/test"): Browser is opened with url: 'https://letcode.in/test'
+
+21-08-2025T10:57:53 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-08-2025T10:57:53 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-08-2025T10:58:01 - [MESSAGE][PASSED] - Browser is opened with url: 'https://letcode.in/test'
+
+21-08-2025T10:58:01 - [TEST_STEP][PASSED] - click(findTestObject("Alertobjects/Page_Workspace  LetCode with Koushik/Alert_button")): Object: 'Object Repository/Alertobjects/Page_Workspace  LetCode with Koushik/Alert_button' is clicked on
+
+21-08-2025T10:58:07 - [MESSAGE][PASSED] - Object: 'Object Repository/Alertobjects/Page_Workspace  LetCode with Koushik/Alert_button' is clicked on
+
+21-08-2025T10:58:07 - [TEST_STEP][PASSED] - click(findTestObject("Alertobjects/Page_Alert  LetCode with Koushik/SimpleAlertbtn")): Object: 'Object Repository/Alertobjects/Page_Alert  LetCode with Koushik/SimpleAlertbtn' is clicked on
+
+21-08-2025T10:58:08 - [MESSAGE][PASSED] - Object: 'Object Repository/Alertobjects/Page_Alert  LetCode with Koushik/SimpleAlertbtn' is clicked on
+
+21-08-2025T10:58:08 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+21-08-2025T10:58:08 - [MESSAGE][PASSED] - Alert accepted
+
+21-08-2025T10:58:08 - [TEST_STEP][PASSED] - click(findTestObject("Alertobjects/Page_Alert  LetCode with Koushik/Confirmalertbtn")): Object: 'Object Repository/Alertobjects/Page_Alert  LetCode with Koushik/Confirmalertbtn' is clicked on
+
+21-08-2025T10:58:09 - [MESSAGE][PASSED] - Object: 'Object Repository/Alertobjects/Page_Alert  LetCode with Koushik/Confirmalertbtn' is clicked on
+
+21-08-2025T10:58:09 - [TEST_STEP][PASSED] - dismissAlert(): Alert dismissed
+
+21-08-2025T10:58:10 - [MESSAGE][PASSED] - Alert dismissed
+
+21-08-2025T10:58:10 - [TEST_STEP][PASSED] - click(findTestObject("Alertobjects/Page_Alert  LetCode with Koushik/promptalertbtn")): Object: 'Object Repository/Alertobjects/Page_Alert  LetCode with Koushik/promptalertbtn' is clicked on
+
+21-08-2025T10:58:10 - [MESSAGE][PASSED] - Object: 'Object Repository/Alertobjects/Page_Alert  LetCode with Koushik/promptalertbtn' is clicked on
+
+21-08-2025T10:58:10 - [TEST_STEP][PASSED] - setAlertText("test"): Set alert text 'test' successfully
+
+21-08-2025T10:58:10 - [MESSAGE][PASSED] - Set alert text 'test' successfully
+
+21-08-2025T10:58:10 - [TEST_STEP][PASSED] - acceptAlert(): Alert accepted
+
+21-08-2025T10:58:10 - [MESSAGE][PASSED] - Alert accepted
+
+21-08-2025T10:58:10 - [TEST_STEP][PASSED] - click(findTestObject("Alertobjects/Page_Alert  LetCode with Koushik/moderalertbtn")): Object: 'Object Repository/Alertobjects/Page_Alert  LetCode with Koushik/moderalertbtn' is clicked on
+
+21-08-2025T10:58:11 - [MESSAGE][PASSED] - Object: 'Object Repository/Alertobjects/Page_Alert  LetCode with Koushik/moderalertbtn' is clicked on
+
+21-08-2025T10:58:11 - [TEST_STEP][PASSED] - click(findTestObject("Alertobjects/Page_Workspace  LetCode with Koushik/Page_Alert  LetCode with Koushik/button_Modern Alert_modal-close is-large")): Object: 'Object Repository/Alertobjects/Page_Workspace  LetCode with Koushik/Page_Alert  LetCode with Koushik/button_Modern Alert_modal-close is-large' is clicked on
+
+21-08-2025T10:58:12 - [MESSAGE][PASSED] - Object: 'Object Repository/Alertobjects/Page_Workspace  LetCode with Koushik/Page_Alert  LetCode with Koushik/button_Modern Alert_modal-close is-large' is clicked on
+
+21-08-2025T10:58:12 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-08-2025T10:58:12 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebUIcomponents/FileDownload" time="21.351" classname="Test Cases/WebUIcomponents/FileDownload" status="PASSED">
+         <system-out><![CDATA[21-08-2025T10:58:12 - [TEST_CASE][PASSED] - Test Cases/WebUIcomponents/FileDownload: Test Cases/WebUIcomponents/FileDownload
+
+21-08-2025T10:58:13 - [TEST_STEP][PASSED] - openBrowser("https://letcode.in/test"): Browser is opened with url: 'https://letcode.in/test'
+
+21-08-2025T10:58:13 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-08-2025T10:58:13 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-08-2025T10:58:18 - [MESSAGE][PASSED] - Browser is opened with url: 'https://letcode.in/test'
+
+21-08-2025T10:58:18 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-08-2025T10:58:18 - [MESSAGE][PASSED] - Current window maximized
+
+21-08-2025T10:58:18 - [TEST_STEP][PASSED] - click(findTestObject("Uploadfile/Page_Workspace  LetCode with Koushik/Fileuploadmenu")): Object: 'Object Repository/Uploadfile/Page_Workspace  LetCode with Koushik/Fileuploadmenu' is clicked on
+
+21-08-2025T10:58:22 - [MESSAGE][PASSED] - Object: 'Object Repository/Uploadfile/Page_Workspace  LetCode with Koushik/Fileuploadmenu' is clicked on
+
+21-08-2025T10:58:22 - [TEST_STEP][PASSED] - click(findTestObject("Download/Page_File Upload  LetCode with Koushik/Downloadpdf")): Object: 'Object Repository/Download/Page_File Upload  LetCode with Koushik/Downloadpdf' is clicked on
+
+21-08-2025T10:58:23 - [MESSAGE][PASSED] - Object: 'Object Repository/Download/Page_File Upload  LetCode with Koushik/Downloadpdf' is clicked on
+
+21-08-2025T10:58:23 - [TEST_STEP][PASSED] - delay(10, STOP_ON_FAILURE): Delayed 10 second(s)
+
+21-08-2025T10:58:33 - [MESSAGE][PASSED] - Delayed 10 second(s)
+
+21-08-2025T10:58:33 - [TEST_STEP][PASSED] - downloadFolder = new java.io.File(C:\Users\Harish M\Downloads): null
+
+21-08-2025T10:58:33 - [TEST_STEP][PASSED] - println(downloadFolder): null
+
+21-08-2025T10:58:33 - [TEST_STEP][PASSED] - nameOffiles = Arrays.asList(downloadFolder.list()): null
+
+21-08-2025T10:58:33 - [TEST_STEP][PASSED] - println(nameOffiles): null
+
+21-08-2025T10:58:33 - [TEST_STEP][PASSED] - if (nameOffiles.contains("sample.pdf")): null
+
+21-08-2025T10:58:33 - [TEST_STEP][PASSED] - println("File Downloaded"): null
+
+21-08-2025T10:58:33 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-08-2025T10:58:34 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebUIcomponents/DragandDragcomponents" time="7.698" classname="Test Cases/WebUIcomponents/DragandDragcomponents" status="PASSED">
+         <system-out><![CDATA[21-08-2025T10:58:34 - [TEST_CASE][PASSED] - Test Cases/WebUIcomponents/DragandDragcomponents: Test Cases/WebUIcomponents/DragandDragcomponents
+
+21-08-2025T10:58:34 - [TEST_STEP][PASSED] - openBrowser("https://jqueryui.com/droppable/"): Browser is opened with url: 'https://jqueryui.com/droppable/'
+
+21-08-2025T10:58:34 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-08-2025T10:58:34 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-08-2025T10:58:39 - [MESSAGE][PASSED] - Browser is opened with url: 'https://jqueryui.com/droppable/'
+
+21-08-2025T10:58:39 - [TEST_STEP][PASSED] - dragAndDropToObject(findTestObject("Object Repository/DragandDrop/Page_Droppable  jQuery UI/Source"), findTestObject("Object Repository/DragandDrop/Page_Droppable  jQuery UI/destination")): Dragged object with id 'Object Repository/DragandDrop/Page_Droppable  jQuery UI/Source' to object with id 'TestObject - 'Object Repository/DragandDrop/Page_Droppable  jQuery UI/destination'' successfully
+
+21-08-2025T10:58:41 - [MESSAGE][PASSED] - Dragged object with id 'Object Repository/DragandDrop/Page_Droppable  jQuery UI/Source' to object with id 'TestObject - 'Object Repository/DragandDrop/Page_Droppable  jQuery UI/destination'' successfully
+
+21-08-2025T10:58:41 - [TEST_STEP][PASSED] - text = getText(findTestObject("Object Repository/DragandDrop/Page_Droppable  jQuery UI/destination")): Text of object 'Object Repository/DragandDrop/Page_Droppable  jQuery UI/destination' is: 'Dropped!'
+
+21-08-2025T10:58:41 - [MESSAGE][PASSED] - Text of object 'Object Repository/DragandDrop/Page_Droppable  jQuery UI/destination' is: 'Dropped!'
+
+21-08-2025T10:58:41 - [TEST_STEP][PASSED] - verifyEqual(text, "Dropped!"): Actual object 'Dropped!' and expected object 'Dropped!' are equal
+
+21-08-2025T10:58:41 - [MESSAGE][PASSED] - Actual object 'Dropped!' and expected object 'Dropped!' are equal
+
+21-08-2025T10:58:41 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-08-2025T10:58:41 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <testcase name="Test Cases/WebUIcomponents/SelectDropdown" time="67.26" classname="Test Cases/WebUIcomponents/SelectDropdown" status="PASSED">
+         <system-out><![CDATA[21-08-2025T10:58:41 - [TEST_CASE][PASSED] - Test Cases/WebUIcomponents/SelectDropdown: Test Cases/WebUIcomponents/SelectDropdown
+
+21-08-2025T10:58:42 - [TEST_STEP][PASSED] - openBrowser("https://letcode.in/test"): Browser is opened with url: 'https://letcode.in/test'
+
+21-08-2025T10:58:42 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+21-08-2025T10:58:42 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+21-08-2025T10:58:46 - [MESSAGE][PASSED] - Browser is opened with url: 'https://letcode.in/test'
+
+21-08-2025T10:58:46 - [TEST_STEP][PASSED] - maximizeWindow(): Current window maximized
+
+21-08-2025T10:58:46 - [MESSAGE][PASSED] - Current window maximized
+
+21-08-2025T10:58:46 - [TEST_STEP][PASSED] - click(findTestObject("SelectDropdown/Page_Workspace  LetCode with Koushik/select")): Object: 'Object Repository/SelectDropdown/Page_Workspace  LetCode with Koushik/select' is clicked on
+
+21-08-2025T10:58:48 - [MESSAGE][PASSED] - Object: 'Object Repository/SelectDropdown/Page_Workspace  LetCode with Koushik/select' is clicked on
+
+21-08-2025T10:58:48 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/CountryDropdown"), 2): All options with index in [2] are selected on object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/CountryDropdown'
+
+21-08-2025T10:58:50 - [MESSAGE][PASSED] - All options with index in [2] are selected on object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/CountryDropdown'
+
+21-08-2025T10:58:50 - [TEST_STEP][PASSED] - verifyOptionSelectedByIndex(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/CountryDropdown"), 2, 0): All options with index range in '2' are selected in object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/CountryDropdown'
+
+21-08-2025T10:58:50 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+21-08-2025T10:58:51 - [MESSAGE][PASSED] - All options with index range in '2' are selected in object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/CountryDropdown'
+
+21-08-2025T10:58:51 - [TEST_STEP][PASSED] - selectOptionByValue(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language"), "py", false): All options with value 'py' are selected in object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language' 
+
+21-08-2025T10:58:52 - [MESSAGE][PASSED] - All options with value 'py' are selected in object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language' 
+
+21-08-2025T10:58:52 - [TEST_STEP][PASSED] - verifyOptionSelectedByValue(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language"), "py", false, 0): All options with value 'py' are selected in object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language' 
+
+21-08-2025T10:58:52 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+21-08-2025T10:58:54 - [MESSAGE][PASSED] - All options with value 'py' are selected in object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language' 
+
+21-08-2025T10:58:54 - [TEST_STEP][PASSED] - selectOptionByLabel(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language"), "Swift", false): All options with label 'Swift' are selected in object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language' 
+
+21-08-2025T10:58:54 - [MESSAGE][PASSED] - All options with label 'Swift' are selected in object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language' 
+
+21-08-2025T10:58:55 - [TEST_STEP][PASSED] - verifyOptionSelectedByLabel(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language"), "Swift", false, 0): All options with label 'Swift' are selected in object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language' 
+
+21-08-2025T10:58:55 - [MESSAGE][WARNING] - Timeout '0' is invalid. Using default page load timeout: '10'
+
+21-08-2025T10:58:56 - [MESSAGE][PASSED] - All options with label 'Swift' are selected in object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/programming language' 
+
+21-08-2025T10:58:56 - [TEST_STEP][PASSED] - waitForElementPresent(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption"), 2): Object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption' is present
+
+21-08-2025T10:58:56 - [MESSAGE][PASSED] - Object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption' is present
+
+21-08-2025T10:58:56 - [TEST_STEP][PASSED] - selectAllOption(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption")): All options are selected on object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption'
+
+21-08-2025T10:59:22 - [MESSAGE][PASSED] - All options are selected on object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption'
+
+21-08-2025T10:59:22 - [TEST_STEP][PASSED] - deselectAllOption(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption")): All options are de-selected on object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption'
+
+21-08-2025T10:59:46 - [MESSAGE][PASSED] - All options are de-selected on object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption'
+
+21-08-2025T10:59:46 - [TEST_STEP][PASSED] - selectOptionByIndex(findTestObject("SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption"), "2-4"): All options with index in [2,3,4] are selected on object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption'
+
+21-08-2025T10:59:48 - [MESSAGE][PASSED] - All options with index in [2,3,4] are selected on object 'Object Repository/SelectDropdown/Page_Dropdowns  LetCode with Koushik/Multioption'
+
+21-08-2025T10:59:48 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+21-08-2025T10:59:49 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[21-08-2025T10:57:51 - [TEST_SUITE][PASSED] - sampleTestsuiteTest: null]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>

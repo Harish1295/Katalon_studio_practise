@@ -1,0 +1,37 @@
+2025-08-26 15:51:03.799 INFO  c.k.katalon.core.main.TestSuiteExecutor  - START Test Suites/sampleTestsuiteTest
+2025-08-26 15:51:04.168 INFO  c.k.katalon.core.main.TestSuiteExecutor  - userFullName = Harish
+2025-08-26 15:51:04.170 INFO  c.k.katalon.core.main.TestSuiteExecutor  - projectName = TestPractices
+2025-08-26 15:51:04.172 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostName = Harish M - LPT1261
+2025-08-26 15:51:04.174 INFO  c.k.katalon.core.main.TestSuiteExecutor  - os = Windows 11 64bit
+2025-08-26 15:51:04.176 INFO  c.k.katalon.core.main.TestSuiteExecutor  - hostAddress = 192.168.0.100
+2025-08-26 15:51:04.178 INFO  c.k.katalon.core.main.TestSuiteExecutor  - katalonVersion = 10.3.0.0
+2025-08-26 15:51:05.102 INFO  c.k.katalon.core.main.TestCaseExecutor   - --------------------
+2025-08-26 15:51:05.102 INFO  c.k.katalon.core.main.TestCaseExecutor   - START Test Cases/WebUIcomponents/FileDownload
+2025-08-26 15:51:05.825 DEBUG testcase.FileDownload                    - 1: openBrowser("https://letcode.in/test")
+2025-08-26 15:51:06.169 INFO  c.k.k.core.webui.driver.DriverFactory    - Starting 'Chrome' driver
+2025-08-26 15:51:06.318 INFO  c.k.k.core.webui.driver.DriverFactory    - Action delay is set to 0 milliseconds
+Aug 26, 2025 3:51:08 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 139, returning the closest version; found: 135; Please update to a Selenium version that supports CDP version 139
+2025-08-26 15:51:09.328 INFO  c.k.k.core.webui.driver.DriverFactory    - sessionId = 4946d2fa98d1be7294a57ab663ac9796
+2025-08-26 15:51:09.330 INFO  c.k.k.core.webui.driver.DriverFactory    - browser = Chrome 139.0.7258.139
+2025-08-26 15:51:09.332 INFO  c.k.k.core.webui.driver.DriverFactory    - platform = Windows 11
+2025-08-26 15:51:09.335 INFO  c.k.k.core.webui.driver.DriverFactory    - seleniumVersion = 4.28.1
+2025-08-26 15:51:09.342 INFO  c.k.k.core.webui.driver.DriverFactory    - proxyInformation = ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList="", isApplyToDesiredCapabilities=true }
+2025-08-26 15:51:12.353 DEBUG testcase.FileDownload                    - 2: maximizeWindow()
+2025-08-26 15:51:12.705 DEBUG testcase.FileDownload                    - 3: click(findTestObject("Uploadfile/Page_Workspace  LetCode with Koushik/Fileuploadmenu"))
+2025-08-26 15:51:14.786 DEBUG testcase.FileDownload                    - 4: click(findTestObject("Download/Page_File Upload  LetCode with Koushik/Downloadpdf"))
+2025-08-26 15:51:18.374 DEBUG testcase.FileDownload                    - 5: delay(10, STOP_ON_FAILURE)
+2025-08-26 15:51:29.090 DEBUG testcase.FileDownload                    - 6: downloadFolder = new java.io.File(C:\Users\Harish M\Downloads)
+2025-08-26 15:51:29.116 DEBUG testcase.FileDownload                    - 7: println(downloadFolder)
+C:\Users\Harish M\Downloads
+2025-08-26 15:51:29.125 DEBUG testcase.FileDownload                    - 8: nameOffiles = Arrays.asList(downloadFolder.list())
+2025-08-26 15:51:29.158 DEBUG testcase.FileDownload                    - 9: println(nameOffiles)
+[#10.txt, Calendar.war, desktop.ini, download.png, Edit Guide Me.mp4, GlobalProtect64.msi, ideaIC-2025.1.1.1.exe, InApp Presentation Template.pptx, jdk-19.0.2_windows-x64_bin.exe, jdk-21_windows-x64_bin.exe, jenkins.war, KatalonSetup (1).exe, KatalonSetup (2).exe, KatalonSetup (3).exe, KatalonSetup.exe, Latitude-3520-R5RR9_Win11_1.0_A09.exe, Mega-sale-600-×-360-px-30.png, ngrok-v3-stable-windows-amd64.zip, sample.pdf]
+2025-08-26 15:51:29.180 DEBUG testcase.FileDownload                    - 10: if (nameOffiles.contains("sample.pdf"))
+2025-08-26 15:51:29.211 DEBUG testcase.FileDownload                    - 1: println("File Downloaded")
+File Downloaded
+2025-08-26 15:51:29.217 DEBUG testcase.FileDownload                    - 12: closeBrowser()
+2025-08-26 15:51:29.735 INFO  c.k.katalon.core.main.TestCaseExecutor   - END Test Cases/WebUIcomponents/FileDownload
+2025-08-26 15:51:29.789 INFO  c.k.katalon.core.main.TestSuiteExecutor  - --------------------
+2025-08-26 15:51:29.789 INFO  c.k.katalon.core.main.TestSuiteExecutor  - END Test Suites/sampleTestsuiteTest
+2025-08-26 15:51:29.789 INFO  c.k.katalon.core.main.TestSuiteExecutor  - ====================

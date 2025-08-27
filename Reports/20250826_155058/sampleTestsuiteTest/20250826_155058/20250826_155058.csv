@@ -1,0 +1,15 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+sampleTestsuiteTest,Chrome 139.0.7258.139,,,26-08-2025 15:51:04,26-08-2025 15:51:29,25.647s,PASSED
+,,,,,,,
+Test Cases/WebUIcomponents/FileDownload,Chrome 139.0.7258.139,,,26-08-2025 15:51:05,26-08-2025 15:51:29,24.633s,PASSED
+"openBrowser(""https://letcode.in/test"")",Chrome 139.0.7258.139,,,26-08-2025 15:51:05,26-08-2025 15:51:12,6.528s,PASSED
+maximizeWindow(),Chrome 139.0.7258.139,,,26-08-2025 15:51:12,26-08-2025 15:51:12,0.352s,PASSED
+"click(findTestObject(""Uploadfile/Page_Workspace  LetCode with Koushik/Fileuploadmenu""))",Chrome 139.0.7258.139,,,26-08-2025 15:51:12,26-08-2025 15:51:14,2.079s,PASSED
+"click(findTestObject(""Download/Page_File Upload  LetCode with Koushik/Downloadpdf""))",Chrome 139.0.7258.139,,,26-08-2025 15:51:14,26-08-2025 15:51:18,3.588s,PASSED
+"delay(10, STOP_ON_FAILURE)",Chrome 139.0.7258.139,,,26-08-2025 15:51:18,26-08-2025 15:51:29,10.690s,PASSED
+downloadFolder = new java.io.File(C:\Users\Harish M\Downloads),Chrome 139.0.7258.139,,,26-08-2025 15:51:29,26-08-2025 15:51:29,0.011s,PASSED
+println(downloadFolder),Chrome 139.0.7258.139,,,26-08-2025 15:51:29,26-08-2025 15:51:29,0.008s,PASSED
+nameOffiles = Arrays.asList(downloadFolder.list()),Chrome 139.0.7258.139,,,26-08-2025 15:51:29,26-08-2025 15:51:29,0.031s,PASSED
+println(nameOffiles),Chrome 139.0.7258.139,,,26-08-2025 15:51:29,26-08-2025 15:51:29,0.019s,PASSED
+"if (nameOffiles.contains(""sample.pdf""))",Chrome 139.0.7258.139,,,26-08-2025 15:51:29,26-08-2025 15:51:29,0.036s,PASSED
+closeBrowser(),Chrome 139.0.7258.139,,,26-08-2025 15:51:29,26-08-2025 15:51:29,0.512s,PASSED
